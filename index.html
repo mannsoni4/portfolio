@@ -3,6 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    /* Always open the page at the top — never restore a previous scroll
+       position, and never deep-link into the page via a #hash URL. */
+    (function () {
+      try { history.scrollRestoration = "manual"; } catch (e) {}
+      if (location.hash) {
+        try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
+      }
+      /* hold the top briefly — beats the browser's late native #hash jump */
+      var until = Date.now() + 1200;
+      (function toTop() {
+        window.scrollTo(0, 0);
+        if (Date.now() < until) requestAnimationFrame(toTop);
+      })();
+    })();
+  </script>
   <title>Mann Soni — Digital Product Builder</title>
   <meta name="description" content="Mann Soni — digital product builder in Vadodara, India. Websites, web applications, product interfaces, and business-oriented digital solutions.">
   <meta name="theme-color" content="#0B0B0C">

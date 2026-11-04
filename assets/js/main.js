@@ -125,17 +125,7 @@
       } else {
         scrollToTarget(target);
       }
-      history.pushState(null, "", "#" + target.id);
     });
-
-    /* re-align on load when arriving with a #hash in the URL */
-    if (location.hash.length > 1) {
-      var t = document.getElementById(location.hash.slice(1));
-      if (t && document.fonts) {
-        document.fonts.ready.then(function () { scrollToTarget(t); });
-        window.addEventListener("load", function () { scrollToTarget(t); }, { once: true });
-      }
-    }
   }
 
   function initScrollFX() {
@@ -274,11 +264,17 @@
 
   /* ----------------------------------------------------------------- boot */
   document.addEventListener("DOMContentLoaded", function () {
+    /* always open at the top — no restored scroll, no #hash deep-links */
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    window.scrollTo(0, 0);
+
     renderNav();
     renderFooter();
     renderHome();
     initMenu();
     initAnchors();
     initScrollFX();
+    window.addEventListener("load", function () { window.scrollTo(0, 0); }, { once: true });
   });
 })();
