@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Red Zap social platform interface illustration">
+  <rect width="800" height="500" fill="#101013"/>
+
+  <!-- window chrome -->
+  <rect width="800" height="44" fill="#16161B"/>
+  <line x1="0" y1="44" x2="800" y2="44" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <circle cx="22" cy="22" r="4" fill="#FFFFFF" fill-opacity="0.16"/>
+  <circle cx="40" cy="22" r="4" fill="#FFFFFF" fill-opacity="0.16"/>
+  <circle cx="58" cy="22" r="4" fill="#FFFFFF" fill-opacity="0.16"/>
+  <rect x="220" y="14" width="360" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <!-- left rail -->
+  <line x1="64" y1="44" x2="64" y2="500" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <rect x="16" y="66" width="32" height="32" rx="9" fill="#F0564A" fill-opacity="0.92"/>
+  <rect x="16" y="126" width="32" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="8"  y="156" width="48" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="16" y="164" width="32" height="7" rx="3.5" fill="#F0564A" fill-opacity="0.9"/>
+  <rect x="16" y="200" width="24" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="16" y="232" width="30" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="16" y="264" width="22" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="16" y="296" width="28" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.12"/>
+
+  <!-- composer -->
+  <rect x="96" y="72" width="460" height="56" rx="12" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <circle cx="124" cy="100" r="12" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="148" y="96" width="210" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="506" y="86" width="34" height="28" rx="8" fill="#F0564A" fill-opacity="0.88"/>
+
+  <!-- post 1 -->
+  <rect x="96" y="148" width="460" height="212" rx="12" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <circle cx="126" cy="180" r="13" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="150" y="172" width="96" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.17"/>
+  <rect x="150" y="188" width="54" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="532" cy="180" r="4" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="120" y="214" width="330" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="120" y="230" width="240" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="120" y="252" width="412" height="72" rx="8" fill="#FFFFFF" fill-opacity="0.045"/>
+  <circle cx="360" cy="288" r="18" fill="#FFFFFF" fill-opacity="0.05"/>
+  <circle cx="128" cy="340" r="6" fill="#F0564A" fill-opacity="0.85"/>
+  <circle cx="152" cy="340" r="6" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="176" cy="340" r="6" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="196" y="336" width="40" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <!-- post 2 (peek) -->
+  <rect x="96" y="378" width="460" height="98" rx="12" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <circle cx="126" cy="410" r="13" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="150" y="402" width="84" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.17"/>
+  <rect x="150" y="418" width="48" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="120" y="444" width="290" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.08"/>
+
+  <!-- right rail: suggested -->
+  <rect x="588" y="76" width="96" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="588" y="100" width="188" height="176" rx="12" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <circle cx="614" cy="130" r="10" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="634" y="124" width="66" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="634" y="136" width="40" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="714" y="122" width="50" height="18" rx="9" fill="#F0564A" fill-opacity="0.85"/>
+  <circle cx="614" cy="170" r="10" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="634" y="164" width="66" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="634" y="176" width="40" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="714" y="162" width="50" height="18" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="614" cy="210" r="10" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="634" y="204" width="66" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="634" y="216" width="40" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="714" y="202" width="50" height="18" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="614" cy="250" r="10" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="634" y="244" width="66" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="634" y="256" width="40" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="714" y="242" width="50" height="18" rx="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.16"/>
+
+  <!-- right rail: trending -->
+  <rect x="588" y="300" width="86" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="588" y="324" width="188" height="130" rx="12" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.07"/>
+  <rect x="606" y="344" width="120" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="606" y="366" width="150" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="606" y="388" width="100" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="606" y="410" width="130" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="746" cy="348" r="5" fill="#F0564A" fill-opacity="0.8"/>
+</svg>

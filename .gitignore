@@ -1,0 +1,7 @@
+# ZCode Sites staging (not needed on GitHub Pages)
+.zcode-site/
+.zcode-site.json
+
+# OS junk
+Thumbs.db
+.DS_Store

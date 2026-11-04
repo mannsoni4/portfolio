@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Gulfsky property detail view illustration">
+  <rect width="800" height="500" fill="#101013"/>
+
+  <!-- left: photo panel -->
+  <rect x="36" y="48" width="330" height="290" rx="12" fill="#FFFFFF" fill-opacity="0.045"/>
+  <circle cx="201" cy="180" r="40" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="140" y="236" width="122" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.07"/>
+  <!-- thumbs -->
+  <rect x="36" y="352" width="102" height="64" rx="8" fill="#141419" stroke="#5CA8FF" stroke-opacity="0.5"/>
+  <rect x="150" y="352" width="102" height="64" rx="8" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="264" y="352" width="102" height="64" rx="8" fill="#FFFFFF" fill-opacity="0.04"/>
+
+  <!-- right: details -->
+  <rect x="410" y="58" width="200" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.2"/>
+  <rect x="410" y="84" width="120" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="410" y="108" width="86" height="16" rx="8" fill="#5CA8FF" fill-opacity="0.7"/>
+
+  <!-- spec tiles -->
+  <g>
+    <rect x="410" y="150" width="80" height="58" rx="8" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="426" y="166" width="34" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="426" y="180" width="44" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.18"/>
+  </g>
+  <g>
+    <rect x="502" y="150" width="80" height="58" rx="8" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="518" y="166" width="34" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="518" y="180" width="40" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.18"/>
+  </g>
+  <g>
+    <rect x="594" y="150" width="80" height="58" rx="8" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="610" y="166" width="34" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="610" y="180" width="46" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.18"/>
+  </g>
+  <g>
+    <rect x="686" y="150" width="80" height="58" rx="8" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <rect x="702" y="166" width="34" height="5" rx="2.5" fill="#FFFFFF" fill-opacity="0.1"/>
+    <rect x="702" y="180" width="38" height="9" rx="4.5" fill="#FFFFFF" fill-opacity="0.18"/>
+  </g>
+
+  <!-- description lines -->
+  <rect x="410" y="238" width="356" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.07"/>
+  <rect x="410" y="256" width="330" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="410" y="274" width="300" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="410" y="292" width="344" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <!-- buttons -->
+  <rect x="410" y="330" width="130" height="38" rx="19" fill="#5CA8FF" fill-opacity="0.85"/>
+  <rect x="448" y="345" width="54" height="8" rx="4" fill="#0D1420" fill-opacity="0.6"/>
+  <rect x="554" y="330" width="100" height="38" rx="19" fill="none" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <rect x="580" y="345" width="48" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.16"/>
+
+  <!-- bottom timeline -->
+  <rect x="36" y="436" width="730" height="1" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="76" cy="436.5" r="5" fill="#5CA8FF" fill-opacity="0.9"/>
+  <rect x="66" y="452" width="52" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="230" cy="436.5" r="5" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="220" y="452" width="52" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="384" cy="436.5" r="5" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="374" y="452" width="52" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="538" cy="436.5" r="5" fill="#FFFFFF" fill-opacity="0.18"/>
+  <rect x="528" y="452" width="52" height="6" rx="3" fill="#FFFFFF" fill-opacity="0.06"/>
+</svg>

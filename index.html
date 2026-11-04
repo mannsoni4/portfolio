@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mann Soni — Digital Product Builder</title>
+  <meta name="description" content="Mann Soni — digital product builder in Vadodara, India. Websites, web applications, product interfaces, and business-oriented digital solutions.">
+  <meta name="theme-color" content="#0B0B0C">
+  <meta property="og:title" content="Mann Soni — Digital Product Builder">
+  <meta property="og:description" content="Websites, web applications, product interfaces, and business-oriented digital solutions.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- navigation (rendered by main.js) -->
+  <header class="site-nav" id="site-nav">
+    <div class="container nav-inner">
+      <a class="wordmark" href="#top" id="wordmark" aria-label="Home"></a>
+      <nav class="nav-links" id="nav-links" aria-label="Primary"></nav>
+      <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-overlay">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- mobile menu -->
+  <div class="menu-overlay" id="menu-overlay" role="dialog" aria-modal="true" aria-label="Menu">
+    <nav aria-label="Mobile">
+      <a href="#work"      data-menulink>Work</a>
+      <a href="#about"     data-menulink>About</a>
+      <a href="#approach"  data-menulink>Approach</a>
+      <a href="#contact"   data-menulink>Contact</a>
+    </nav>
+    <div class="menu-foot" id="menu-foot"></div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <span class="hero-eyebrow"><span class="dot" aria-hidden="true"></span><span id="hero-eyebrow"></span></span>
+          <h1 class="hero-title" id="hero-title"></h1>
+          <p class="hero-sub" id="hero-sub" data-reveal style="--d:.12s"></p>
+
+          <div class="hero-actions" data-reveal style="--d:.22s">
+            <a class="btn btn-primary" href="#work">Explore My Work <span class="arr" aria-hidden="true">&nbsp;&#8595;</span></a>
+            <a class="btn btn-ghost" href="#contact">Contact Me <span class="arr" aria-hidden="true">&#8594;</span></a>
+          </div>
+
+          <div class="hero-meta" id="hero-meta" data-reveal style="--d:.32s"></div>
+        </div>
+
+        <!-- layered product windows — pure CSS illustration -->
+        <div class="hero-visual" id="hero-visual" aria-hidden="true" data-reveal style="--d:.2s">
+          <div class="hv-glow"></div>
+
+          <div class="hv-card hv-card-b">
+            <div class="hv-chrome">
+              <div class="hv-dots"><i></i><i></i><i></i></div>
+              <div class="hv-url sk dim"></div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-stat-row">
+                <div class="hv-stat"><div class="sk dim l"></div><div class="sk hi v"></div></div>
+                <div class="hv-stat"><div class="sk dim l"></div><div class="sk hi v"></div></div>
+                <div class="hv-stat"><div class="sk dim l"></div><div class="sk ac v"></div></div>
+              </div>
+              <div class="hv-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+
+          <div class="hv-card hv-card-a">
+            <div class="hv-chrome">
+              <div class="hv-dots"><i></i><i></i><i></i></div>
+              <div class="hv-url sk dim"></div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-side">
+                <div class="logo"></div>
+                <div class="sk dim i"></div>
+                <div class="sk i"></div>
+                <div class="sk dim i"></div>
+                <div class="sk dim i"></div>
+              </div>
+              <div class="hv-feed">
+                <div class="hv-composer">
+                  <div class="hv-avatar"></div>
+                  <div class="sk dim bar"></div>
+                  <div class="btnsq"></div>
+                </div>
+                <div class="hv-post">
+                  <div class="hv-post-head">
+                    <div class="hv-avatar"></div>
+                    <div class="sk name"></div>
+                    <div class="sk dim when"></div>
+                  </div>
+                  <div class="sk line w80"></div>
+                  <div class="sk dim line w60"></div>
+                  <div class="media"></div>
+                  <div class="hv-actions"><i class="liked"></i><i></i><i></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="idx">01</span> About</span>
+          <h2 class="section-title" id="about-title">A practical approach to <em>building products</em></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-side" data-reveal>
+            <figure class="about-portrait">
+              <img src="assets/img/portrait.jpeg" alt="Portrait of Mann Soni" width="716" height="1600">
+            </figure>
+            <div class="portrait-byline"><span id="portrait-byline"></span></div>
+          </div>
+          <div>
+            <div class="about-copy" id="about-copy" data-reveal style="--d:.1s"></div>
+            <div class="about-facts" id="about-facts" data-reveal style="--d:.2s"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= CAPABILITIES ======================= -->
+    <section class="section" id="capabilities" aria-labelledby="cap-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="idx">02</span> Capabilities</span>
+          <h2 class="section-title" id="cap-title">What I can <em>do for you</em></h2>
+          <p class="side">Seven disciplines, one goal: digital products that look sharp and genuinely work.</p>
+        </div>
+        <ul class="skills-list" id="skills-list"></ul>
+      </div>
+    </section>
+
+    <!-- ========================= SELECTED WORK ========================= -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="idx">03</span> Selected Work</span>
+          <h2 class="section-title" id="work-title">Projects, <em>chosen with care</em></h2>
+          <p class="side">A selection of products I've designed and built — what each one is, and the features that define it.</p>
+        </div>
+        <div class="projects-list" id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- ========================== APPROACH ========================== -->
+    <section class="section" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow"><span class="idx">04</span> My Approach</span>
+          <h2 class="section-title" id="approach-title">How the work <em>gets done</em></h2>
+        </div>
+        <ol class="approach-steps" id="approach-steps"></ol>
+      </div>
+    </section>
+
+    <!-- ========================== CONTACT ========================== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-head" data-reveal>
+          <span class="eyebrow"><span class="idx">05</span> Contact</span>
+          <h2 class="contact-title" id="contact-title" style="margin-top:22px"></h2>
+          <p class="contact-blurb" id="contact-blurb"></p>
+        </div>
+        <div class="contact-grid">
+          <div data-reveal>
+            <a class="contact-email" id="contact-email" href="#"></a>
+            <p class="contact-note" id="contact-note"></p>
+          </div>
+          <div class="contact-links" id="contact-links" data-reveal style="--d:.12s"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer (rendered by main.js) -->
+  <footer class="site-footer">
+    <div class="container footer-inner" id="footer-inner"></div>
+  </footer>
+
+  <noscript>
+    <div style="max-width:640px;margin:120px auto;padding:0 24px;text-align:center;font-family:sans-serif">
+      <p style="font-size:18px">This portfolio renders its content with JavaScript.</p>
+      <p style="color:#888;margin-top:8px">Please enable JavaScript to view it — or reach me directly:</p>
+    </div>
+  </noscript>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
