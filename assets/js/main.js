@@ -19,6 +19,12 @@
   function fmt(s) {
     return esc(s).replace(/\[([^\]]+)\]/g, '<span class="ph">$1</span>');
   }
+  function initials(name) {
+    var parts = name.trim().split(/\s+/).filter(Boolean);
+    if (!parts.length) return "YN";
+    if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+  }
 
   /* ------------------------------------------------------------ shared chrome */
   function renderNav() {
@@ -51,9 +57,7 @@
     $("#footer-inner").innerHTML =
       '<div class="footer-meta">' +
         "<span>© " + year + " " + esc(DATA.owner.name) + "</span>" +
-        '<span class="sep" aria-hidden="true"></span>' +
         "<span>" + esc(DATA.owner.role) + "</span>" +
-        '<span class="sep" aria-hidden="true"></span>' +
         timeHtml +
       "</div>" +
       '<div class="footer-meta"><span>' + esc(DATA.footer.note) + "</span></div>" +
@@ -198,9 +202,9 @@
     meta.innerHTML = bits.join('<span class="sep" aria-hidden="true"></span>');
 
     /* about */
-    $("#portrait-byline").textContent = o.name + " — " + o.role;
+    $("#about-quote").innerHTML = esc(DATA.about.quote) +
+      '<span class="by">' + esc(initials(o.name)) + " — " + esc(o.role) + "</span>";
     $("#about-copy").innerHTML =
-      '<p class="about-lead">' + esc(DATA.about.quote) + "</p>" +
       DATA.about.paragraphs.map(function (p) { return "<p>" + fmt(p) + "</p>"; }).join("");
     $("#about-facts").innerHTML = DATA.about.facts.map(function (f) {
       return "<div><div class=\"k\">" + esc(f.label) + '</div><div class="v">' + fmt(f.value) + "</div></div>";

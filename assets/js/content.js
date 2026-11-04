@@ -115,7 +115,7 @@ window.PORTFOLIO = {
       dotColor: "#5CA8FF",
       status: "Ongoing",
       tags: ["SaaS", "Dashboard"],
-      preview: { src: "assets/img/preview-gulfsky.svg", alt: "Gulfsky — property management dashboard", w: 800, h: 500 },
+      preview: { src: "assets/img/shot-gulfsky.png", alt: "Gulfsky — property management dashboard", w: 1920, h: 940 },
       features: [
         "Live occupancy & tenant stats",
         "Complaint tracking with technician assignment",
@@ -131,7 +131,7 @@ window.PORTFOLIO = {
       dotColor: "#F27EB4",
       status: "Ongoing",
       tags: ["Platform", "Admin"],
-      preview: { src: "assets/img/preview-endless-luv.svg", alt: "Endless Luv — legacy preservation platform", w: 800, h: 500 },
+      preview: { src: "assets/img/shot-endless-luv.png", alt: "Endless Luv — legacy preservation dashboard", w: 1920, h: 946 },
       features: [
         "Guided legacy dashboard",
         "Future video & photo messages",
