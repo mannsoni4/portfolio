@@ -36,6 +36,37 @@
   --radius: 10px;
 }
 
+/* ------------------------------------------------------------- page rails
+   Two hairline verticals framing the page in its outer margins — outside
+   the content container, so they never cross or touch any text. */
+.page-rails {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(100vw, calc(var(--container) + 2 * clamp(16px, 3vw, 44px)));
+  pointer-events: none;
+  z-index: 1;
+}
+.page-rails::before,
+.page-rails::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255, 255, 255, 0.065) 9%,
+    rgba(255, 255, 255, 0.065) 91%,
+    transparent
+  );
+}
+.page-rails::before { left: 0; }
+.page-rails::after { right: 0; }
+
 /* ------------------------------------------------------------------- base */
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -136,13 +167,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   text-transform: uppercase;
   color: var(--text-3);
 }
-.eyebrow::after {
-  content: "";
-  width: 44px;
-  height: 1px;
-  background: var(--line-strong);
-}
-.eyebrow .idx { color: var(--accent); }
+.eyebrow .idx { color: var(--accent); margin-right: 2px; }
 
 .section-title {
   font-family: var(--font-display);
@@ -441,18 +466,6 @@ main > .section + .section { border-top: 1px solid var(--line); }
   padding-top: calc(var(--nav-h) + 32px);
   padding-bottom: 64px;
   overflow: hidden;
-}
-/* faint vertical grid lines spanning the hero */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(to right, var(--line) 1px, transparent 1px);
-  background-size: calc(100% / 6) 100%;
-  -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%, black 72%, transparent);
-  mask-image: linear-gradient(to bottom, transparent, black 18%, black 72%, transparent);
-  pointer-events: none;
 }
 
 .hero-grid {
@@ -758,11 +771,13 @@ main > .section + .section { border-top: 1px solid var(--line); }
 }
 .project-features li::before {
   content: "";
-  width: 14px;
-  height: 1px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
   background: var(--accent);
   flex: none;
   transform: translateY(-4px);
+  margin: 0 5px;
 }
 
 /* ---------------------------------------------------------------- approach */
@@ -928,6 +943,7 @@ main > .section + .section { border-top: 1px solid var(--line); }
 }
 
 @media (max-width: 920px) {
+  .page-rails { display: none; }
   :root { --nav-h: 64px; }
   .nav-links, .nav-cta { display: none; }
   .nav-burger { display: block; }
