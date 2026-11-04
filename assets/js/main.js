@@ -19,12 +19,6 @@
   function fmt(s) {
     return esc(s).replace(/\[([^\]]+)\]/g, '<span class="ph">$1</span>');
   }
-  function initials(name) {
-    var parts = name.trim().split(/\s+/).filter(Boolean);
-    if (!parts.length) return "YN";
-    if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
-    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
-  }
 
   /* ------------------------------------------------------------ shared chrome */
   function renderNav() {
@@ -202,8 +196,7 @@
     meta.innerHTML = bits.join('<span class="sep" aria-hidden="true"></span>');
 
     /* about */
-    $("#about-quote").innerHTML = esc(DATA.about.quote) +
-      '<span class="by">' + esc(initials(o.name)) + " — " + esc(o.role) + "</span>";
+    $("#about-quote").innerHTML = esc(DATA.about.quote);
     $("#about-copy").innerHTML =
       DATA.about.paragraphs.map(function (p) { return "<p>" + fmt(p) + "</p>"; }).join("");
     $("#about-facts").innerHTML = DATA.about.facts.map(function (f) {

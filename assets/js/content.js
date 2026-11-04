@@ -37,7 +37,7 @@ window.PORTFOLIO = {
       { t: "Develop.",           em: true  },
     ],
     sub: "Whether it's building software or processes — I take ideas from first sketch to a polished, working product.",
-    metaNote: "Currently available for select projects",
+    metaNote: "",
   },
 
   /* ------------------------------------------------------------------
@@ -54,9 +54,9 @@ window.PORTFOLIO = {
     ],
     // Small facts row (label + value pairs). Edit freely, add/remove pairs.
     facts: [
-      { label: "Focus",     value: "Websites · Web apps · Product UI" },
+      { label: "Focus",     value: "Websites, web apps, product UI" },
       { label: "Based in",  value: "Vadodara, Gujarat, India" },
-      { label: "Working",   value: "Worldwide, remote-friendly" },
+      { label: "Working",   value: "Remote, worldwide" },
     ],
   },
 
