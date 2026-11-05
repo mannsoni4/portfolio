@@ -36,7 +36,7 @@ window.PORTFOLIO = {
       { t: "Perceive. Design. ", em: false },
       { t: "Develop.",           em: true  },
     ],
-    sub: "Whether it's building software or processes — I take ideas from first sketch to a polished, working product.",
+    sub: "Websites, web apps, and business tools. Made in Vadodara, shipped anywhere.",
     metaNote: "",
   },
 
@@ -48,9 +48,8 @@ window.PORTFOLIO = {
   about: {
     quote: "Asking questions is important! Building isn't hard — knowing what and how to build is.",
     paragraphs: [
-      "I'm Mann Soni — a digital product builder working across websites, web applications, and business tools. My work sits between design and engineering: shaping the product, building the interface, and refining it until it feels effortless.",
-      "I care about practical problem-solving. Before anything gets built, I make sure the problem is understood and the plan is sound. I use AI-assisted workflows to move faster and iterate more — never as a shortcut past quality.",
-      "Good products are never finished. I test what I build, act on feedback, and keep improving — because the details are what separate a working product from a great one.",
+      "I'm Mann Soni. I make websites, web apps, and business tools — the kind that get used on a Monday morning, not admired once and forgotten.",
+      "I design it, build it, test it, fix it. AI helps me move fast; I make sure it's right. If something's off, tell me straight — that's how the work gets good.",
     ],
     // Small facts row (label + value pairs). Edit freely, add/remove pairs.
     facts: [
@@ -66,19 +65,19 @@ window.PORTFOLIO = {
      ------------------------------------------------------------------ */
   skills: [
     { title: "Website Development",
-      desc: "Fast, responsive websites with clean structure, careful typography, and polished detail." },
+      desc: "Websites that load fast and look sharp." },
     { title: "Web Application Development",
-      desc: "Interactive web applications built around real workflows and clear, well-structured data." },
+      desc: "Web apps built around how you actually work." },
     { title: "UI Implementation",
-      desc: "Turning designs into precise, responsive interfaces that stay true to the original intent." },
+      desc: "Designs turned into working interfaces, pixel for pixel." },
     { title: "AI-Assisted Development",
-      desc: "Using AI tools to prototype faster and iterate more, without cutting corners on quality." },
+      desc: "AI helps me move fast. I keep the quality." },
     { title: "Product Prototyping",
-      desc: "Early, clickable versions that test ideas and assumptions before committing to a full build." },
+      desc: "Rough, clickable versions that test an idea early." },
     { title: "Workflow & Business Process Solutions",
-      desc: "Digital tools that simplify how a business actually operates day to day." },
+      desc: "Tools that make the day-to-day simpler." },
     { title: "Interface Testing & Refinement",
-      desc: "Systematic review of usability, responsiveness, and edge cases until everything holds up." },
+      desc: "Real devices, real edge cases — fixed until solid." },
   ],
 
   /* ------------------------------------------------------------------
@@ -95,7 +94,7 @@ window.PORTFOLIO = {
       slug: "red-zap",
       title: "Red Zap",
       tagline: "Social platform",
-      description: "A social platform built around simple sharing and discovery.",
+      description: "Simple sharing. Simple discovery. That's the whole idea.",
       dotColor: "#F0564A",
       status: "Ongoing",
       tags: ["Social", "Web App"],
@@ -111,7 +110,7 @@ window.PORTFOLIO = {
       slug: "gulfsky",
       title: "Gulfsky",
       tagline: "Property management software",
-      description: "Property management software that brings tenants, complaints, maintenance, and inventory into one clear dashboard.",
+      description: "Property software — tenants, complaints, maintenance, inventory. One dashboard.",
       dotColor: "#5CA8FF",
       status: "Ongoing",
       tags: ["SaaS", "Dashboard"],
@@ -127,7 +126,7 @@ window.PORTFOLIO = {
       slug: "endless-luv",
       title: "Endless Luv",
       tagline: "Legacy preservation platform",
-      description: "A legacy preservation platform for future messages, time capsules, and final wishes — with a full admin interface.",
+      description: "For future messages, time capsules, and final wishes. With a full admin side.",
       dotColor: "#F27EB4",
       status: "Ongoing",
       tags: ["Platform", "Admin"],
@@ -146,13 +145,13 @@ window.PORTFOLIO = {
      ------------------------------------------------------------------ */
   approach: [
     { title: "Understand the problem",
-      desc: "Every project starts with questions. Who is this for, what should it do, and what does success actually look like?" },
+      desc: "Who is this for, what should it do, what does success look like?" },
     { title: "Plan the product",
-      desc: "Mapping flows, screens, and structure before building — so the product has a clear shape from day one." },
+      desc: "Flows, screens, and structure — before anything gets built." },
     { title: "Build & refine",
-      desc: "Implementing the interface, reviewing it at real sizes, and sharpening the details as it takes form." },
+      desc: "Make it real, look at it at real sizes, sharpen the details." },
     { title: "Test & improve",
-      desc: "Testing across devices and edge cases, gathering feedback, and refining until it consistently holds up." },
+      desc: "Devices, edge cases, feedback — until it consistently holds up." },
   ],
 
   /* ------------------------------------------------------------------
@@ -164,7 +163,7 @@ window.PORTFOLIO = {
       { t: "Let's build something ", em: false },
       { t: "worth using.", em: true },
     ],
-    blurb: "Whether it's a website, a web application, or an internal tool — tell me what you're working on and I'll tell you honestly how I can help.",
+    blurb: "Tell me what you're working on — I'll tell you honestly how I can help.",
     links: [
       { label: "Email", value: "mannsoni8054@gmail.com", href: "mailto:mannsoni8054@gmail.com" },
       { label: "Phone", value: "+91 90167 61301",        href: "tel:+919016761301" },
